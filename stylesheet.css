@@ -95,6 +95,15 @@ p {
 display: grid;
 }
 
+.bigpic {
+  grid-column: 3;
+}
+
+.littlepic {
+place-self: stretch;
+grid-column: 1 / span 2;
+}
+
 .big {
   grid-column: 2 / span 3;
 }
